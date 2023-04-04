@@ -32,8 +32,7 @@ const IndexPage = () => {
             <div className={movie} key={index}>
 
                 <p className={movieName}>{image.node.name.replace(/-/g, " ")}</p>
-
-                <Link to={`/shapes/${image.node.name}`}>
+                <Link to={`/shapes/${image.node.name.toLowerCase().replace(/[().]/g, '')}`}>
                     <img className={shape} alt='' src={image.node.publicURL}></img>
                 </Link>
 
