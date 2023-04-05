@@ -8,14 +8,11 @@ const IndexPage = () => {
   const images = useStaticQuery(graphql`
 
       query {
-        allFile(filter: {extension: {eq: "jpg"}}) {
+        allFile(filter: {extension: {eq: "jpg"}}, sort: {name: ASC}) {
           edges {
             node {
               name
               publicURL
-              childImageSharp {
-                gatsbyImageData
-              }
             }
           }
         }
