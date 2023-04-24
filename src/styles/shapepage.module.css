@@ -16,7 +16,8 @@
 
 .imageContainer {
     aspect-ratio: auto 1500 / 300;
-    width: 90vw;
+    width: 80vw;
+    margin-bottom: 1.5em;
 }
 
 .shape {
