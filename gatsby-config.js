@@ -24,6 +24,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/static`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-json`,
       options: {
         typeName: `FilmJson`, // a fixed string
