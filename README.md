@@ -1,6 +1,6 @@
 # frametones
 
-Projet d'AlgoProg du semestre 4 INSA Lyon
+Projet d'AlgoProg du semestre 4 INSA Lyon.
 Il s'agit simplement d'une page statique React qui affiche les images produites
 par un logiciel qui extrait les couleurs dominantes de chaque image d'un film.
 
