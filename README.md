@@ -9,3 +9,6 @@ des éléments sont ajoutés à la base de données.
 
 L'hébergement est géré par GitHub Pages, à l'adresse :
 https://theslippypenguin.github.io/frametones/
+
+L'idée et le layout du site sont honteusement piqués à Jean-Baptiste Siraudin, avec plus ou moins son accord :
+https://www.theshapeofmovies.com/
