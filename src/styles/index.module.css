@@ -11,6 +11,22 @@
     font-weight: 600;
     color: #333;
     display: flex;
+    margin-bottom: 0;
+}
+
+.inspi {
+    font-size: small;
+    font-weight: 400;
+    color: #676767;
+    display: flex;
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    display: flex;
+    margin: 0.5em 0 0 0;
 }
 
 .movie {

@@ -1,6 +1,6 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import { title, movie, grid, shape, movieName, page } from "../styles/index.module.css"
+import { title, movie, grid, shape, movieName, page, subtitle, inspi } from "../styles/index.module.css"
 import { Link } from "gatsby"
 
 /*const IndexPage = () => {
@@ -63,6 +63,7 @@ const IndexPage = () => {
     return (
       <div className={page}>
       <h1 className={title}>Projet Algo S4</h1>
+      <p className={subtitle}>Créé par Adrien HOUDOUX - INSA Lyon - 2023</p>
       <div className={grid}>
 
         {films.allFilmJson.edges.map((film, index) => (
@@ -76,6 +77,9 @@ const IndexPage = () => {
         ))}
 
       </div>
+      <a href="https://www.theshapeofmovies.com/">
+        <p className={inspi}>inspiration</p>
+      </a>
     </div>
     )
 }
