@@ -70,7 +70,7 @@ const IndexPage = () => {
 
             <p className={movieName}>{film.node.title} ({film.node.year})</p>
             <Link to={`/shapes/${film.node.title.toLowerCase().replace(/[().,:]/g, '').replace(/ /g, "-")}`}>
-              <img className={shape} alt='' src={'../kmeans/'+ film.node.img_name}></img>
+              <img className={shape} alt='' src={'https://theslippypenguin.github.io/frametones/kmeans/'+ film.node.img_name}></img>
             </Link>
           </div>
         ))}
